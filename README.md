@@ -7,10 +7,5 @@ Project about  a test for developers search a dev inspiration
 
 
 
-
-<style>
-    h2{
-        font-size:100px;
-    }
-</style>
-<h2>god<h2>
+<h2>Screen Form<h2>
+<img src="./img/form.png">
