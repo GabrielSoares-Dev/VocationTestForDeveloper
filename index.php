@@ -18,7 +18,7 @@
         <form method="POST" action="./descubra.php">
             <div class="container-form">
                 <div >
-                    <h4> 1-Com o que vc gosta mais de trabalhar?</h4>
+                    <h4> 1-Com o que você gosta mais de trabalhar?</h4>
                     <div class="div--input">
                         <input type='radio' value="dados" name="question_one" checked />
                         <label>Dados</label>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div >
-                    <h4> 3- Voce possui um bom raciocionio logico?</h4>
+                    <h4> 3- Você  possui um bom raciocionio logico?</h4>
                     <div class="div--input">
                         <input type='radio' value="sim" name="question_three" checked  />
                         <label>Sim</label>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div>
-                    <h4>4-Com o que voce pretende lidar?</h4>
+                    <h4>4-Com o que você pretende lidar?</h4>
                     <div class="div--input">
                         <input type='radio' value="servidor" name="question_four" checked />
                         <label>Servidor</label>
