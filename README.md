@@ -7,4 +7,10 @@ Project about  a test for developers search a dev inspiration
 
 
 
-<h1>god<h1>
+
+<style>
+    h2{
+        font-size:100px;
+    }
+</style>
+<h2>god<h2>
