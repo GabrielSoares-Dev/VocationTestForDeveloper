@@ -63,3 +63,16 @@ input[type="submit"]:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
+@media (max-width:800px){
+    .container-form{
+        width: 350px;
+        margin-top: 20px;
+       padding: 23px;
+       height: 95%;
+    }
+    .container--title{
+    margin-top: 30px;
+    }
+
+}

@@ -121,3 +121,13 @@ button:hover{
 transform: scale(1.1);
 cursor: pointer;
 }
+
+@media (max-width:800px){
+  .container--backend,.container--frontend,.container--fullstack,.error{
+      width: 300px;
+   
+  }  
+  .container--resultado{
+      margin-top: 200px;
+}
+}
