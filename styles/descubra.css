@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #EEECEC;
+}
+
+body {
+    background-color: #010415;
+}
+button{
+    border:none
+}
+.container--resultado {
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+.container--backend {
+    background-color: #c5a827;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    animation-name: container;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    
+}
+
+.container--backend h2 {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+@keyframes container {
+  from { transform: scale(0)rotate(180deg)}
+    to{transform: scale(1)rotate(0)}
+    
+}
+
+.container--frontend{
+    background-color: #1769aa;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    animation-name: container;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.container--frontend h2{ 
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.container--fullstack{
+    background-color: #52b202;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    animation-name: container;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.container--fullstack h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.container--button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.error{
+    background-color: #aa2e25;
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%), 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    animation-name: container;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+.error h2{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 40px;
+}
+.error h3{
+    text-align: center;
+}
+button{
+    background-color: #111D2D;
+    color: #EEECEC;
+    border: 1px solid #EEECEC;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    transition-duration: 1.2s;
+    animation-name: container;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+
+button:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
